@@ -1,41 +1,34 @@
 ## 🧪 Bootcamp Projects Overview
 
-This folder contains projects developed during a **Data Analytics & Business Intelligence Bootcamp**.  
-The projects focus on **end-to-end analytical workflows** commonly used in BI roles, from data preparation and analysis to insight generation and decision support.
+This repository contains analytical projects developed during a **Data Analytics & Business Intelligence Bootcamp**, designed to demonstrate **end-to-end BI workflows**—from data preparation and analysis to insight generation and decision support.
 
-Although these projects originate from a learning environment, they are structured to reflect **real-world analytical practices**, emphasizing analytical rigor, clarity of insights, and business relevance.
-
----
-
-### 1. Data Cleaning
-- Handling missing values, duplicates, and data inconsistencies
-- Feature engineering and data preparation
-- Structuring analysis-ready datasets as a foundation for downstream analysis
-
-### 2. Exploratory Data Analysis & Statistics
-- Descriptive and exploratory analysis
-- Identifying patterns, trends, and anomalies
-- Applying statistical reasoning to support analytical findings
-
-### 3. A/B Testing & Experimentation
-- Hypothesis formulation
-- Metric definition and evaluation
-- Statistical testing and result interpretation
-- Assessing potential business impact
-
-### 4. Customer Segmentation
-- Feature selection and scaling
-- K-Means clustering
-- Segment profiling
-- Translating analytical segments into actionable business strategies
+The projects follow real-world analytical practices, emphasizing **structured thinking, analytical rigor, and business relevance**, rather than isolated technical exercises.
 
 ---
 
-## 🧠 SQL, Business Analysis & Dashboarding
+## Analytical Scope
 
-In addition to Python-based analysis, this folder also includes:
-- **SQL scripts** for extracting and analyzing business metrics
-- **Business analysis documentation** connecting analytical results to insights and recommendations
-- **Dashboard summaries** designed to support data-driven decision-making
+### Python-Based Analysis
+- **Data Cleaning:** Preparing analysis-ready datasets by handling missing values, inconsistencies, and feature engineering.
+- **Exploratory Data Analysis & Statistics:** Identifying patterns, trends, and anomalies to support data-driven reasoning.
+- **A/B Testing & Experimentation:** Designing hypotheses, evaluating metrics, and interpreting results to assess business impact.
+- **Customer Segmentation:** Applying K-Means clustering and profiling segments to translate analytical results into actionable strategies.
 
-Together, these components reflect practical BI workflows where **data querying, analysis, and visualization** work in alignment to inform business and operational decisions.
+Python queries, analytical logic, and thought processes for these analyses are documented in **Jupyter Notebooks**, executed via **Google Colab**.  
+Associated CSV outputs are stored as analytical datasets for transparency and reuse.
+
+---
+
+## SQL, Business Analysis & Dashboarding
+
+- **SQL Analysis:** Business-focused queries to extract and summarize key metrics.
+- **Business Analysis:** Structured documentation connecting analytical results to process improvement and strategic decision-making.
+- **Power BI Dashboards:** Interactive visualizations built from Excel datasets derived from SQL outputs, supporting monitoring and executive insights.
+
+Together, these components demonstrate how **data querying, analysis, and visualization** work in alignment to inform business and operational decisions.
+
+---
+
+## Key Takeaway
+
+This repository showcases the ability to move beyond technical execution and apply analytics as a **problem-solving and decision-support tool**, bridging data, insights, and business impact.
