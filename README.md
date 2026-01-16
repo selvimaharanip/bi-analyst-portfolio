@@ -1,50 +1,55 @@
-# Business Intelligence Analyst Portfolio
+# Selvi Maharani Pujianti — Business Intelligence Analyst Portfolio
 
-This repository serves as a professional portfolio showcasing my work in **Business Intelligence and Data Analytics**, with a focus on structured analysis, insight generation, and decision support.
+## About
 
-I come from a background in **research, due diligence investigations, and risk-focused analysis**, where I have worked extensively with complex qualitative and quantitative information. Through investigative research, OSINT, and structured reporting, I developed a strong ability to synthesize complex findings into clear, decision-ready insights for diverse stakeholders.
+Hi, I’m **Selvi** 👋  
+I am an aspiring **Business Intelligence Analyst** with a background in **research, due diligence investigations, and risk-focused analysis**. My experience trained me to work with complex qualitative and quantitative data, validate information rigorously, and translate findings into clear, decision-ready insights.
 
-By expanding my skill set into **data analytics and business intelligence**—including SQL, Python, and Power BI—I integrate investigative rigor with scalable, data-driven analysis and visual storytelling. This portfolio reflects how I apply analytical methods to support business, operational, and risk-aware decision-making.
+By expanding my skill set into **data analytics and business intelligence**—including **SQL, Python, and Power BI**—I combine investigative rigor with structured data analysis and visual storytelling to support **business, operational, and risk-aware decision-making**.
 
----
-
-## 🔍 Portfolio Orientation
-
-This portfolio emphasizes:
-- Structured and methodical analytical thinking
-- Translating data into actionable business insights
-- Balancing qualitative context with quantitative evidence
-- Clear communication through documentation and visualization
-- Alignment between analysis, business objectives, and decision-making needs
-
-Rather than focusing solely on tools, the projects highlight **how analytical outputs create value for stakeholders**.
+📄 **CV (PDF):**  
+https://drive.google.com/file/d/1734-5XJsazyoEcs_XwZ7r2XSjenD7Aeg/view
 
 ---
 
-## 📁 Repository Navigation
+## Portfolio Focus
 
-- **bootcamp-projects/**  
-  Contains structured analytical projects developed during a Business Intelligence bootcamp, demonstrating end-to-end analytical workflows and learning-to-impact progression.
-
-Additional independent and real-world case studies will be added in future updates.
-
----
-
-## 🎯 Purpose of This Repository
-
-This repository is intended for:
-- Recruiters and hiring managers evaluating Business Intelligence or Data Analyst capabilities
-- Professionals seeking insight into my analytical approach and problem-solving style
-- Demonstrating how investigative analysis and data-driven methods complement each other
-
-The focus is on **clarity, rigor, and business relevance**, rather than isolated technical exercises.
+This portfolio highlights:
+- Structured and methodical analytical thinking  
+- Translating data into actionable business insights  
+- Integrating qualitative context with quantitative evidence  
+- Clear communication through documentation and dashboards  
+- Alignment between analysis, business objectives, and decisions  
 
 ---
 
-## 📬 Contact
-**Selvi Maharani**  
+## Bootcamp Projects Overview
+
+This repository currently features **end-to-end analytical projects** developed during a **Business Intelligence bootcamp**, serving as foundational case studies.
+
+The projects demonstrate practical BI workflows, including:
+- Data cleaning and exploratory analysis  
+- A/B testing and experimentation  
+- Customer segmentation and statistical reasoning  
+- Business-oriented SQL analysis  
+- Business analysis and Power BI dashboarding  
+
+> These projects reflect how analytical methods are applied to solve business problems and support decision-making, not just technical execution.
+
+---
+
+## Ongoing Development
+
+This portfolio is a **living repository**.  
+Additional **independent projects, real-world case studies, and advanced BI analyses** will be continuously added as the portfolio evolves.
+
+---
+
+## Contact
+
+**Selvi Maharani Pujianti**  
 Aspiring Business Intelligence Analyst  
 
-🔗 LinkedIn: [linkedin.com/in/selvimaharanip](https://www.linkedin.com/in/selvimaharanip/)  
-📧 Email: [selvimaharanip@gmail.com](mailto:selvimaharanip@gmail.com)  
-🌐 Notion Portfolio: (optional)
+🔗 **LinkedIn:** [Selvi Maharani Pujianti](https://www.linkedin.com/in/selvimaharanip/)
+📧 **Email:** [selvimaharanip@gmail.com](mailto:selvimaharanip@gmail.com)
+🌐 **Notion Portfolio:** https://www.notion.so/Selvi-Maharani-Pujianti-s-Portfolio-2e0d3075cbb1805bb44bfa753c1dd970  
