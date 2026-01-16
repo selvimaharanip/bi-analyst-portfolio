@@ -29,7 +29,7 @@ Builds on the same data source to answer *what decisions should be made*. This a
 - **Data Source:**  
   Operational datasets extracted via SQL and stored as Excel files in:  
   `bootcamp-projects/data/`
-  - `business_decision_making_dataset`  
+  - `business_decision_making_dataset.xlsx`  
   - `bi_reporting_analysis_dataset.xlsx`
 
 - **Tools:**  
