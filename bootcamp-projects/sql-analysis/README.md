@@ -44,6 +44,7 @@ The analysis covers five core business questions:
 
 - Documented SQL queries aligned with business objectives  
 - Executive-ready insights derived from query results  
+- **Detailed business questions and corresponding query result tables are documented in the accompanying presentation (PPT) available in this folder, providing structured context and executive-friendly summaries of the analysis.**
 
 ---
 
