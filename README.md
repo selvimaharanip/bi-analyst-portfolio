@@ -52,4 +52,3 @@ Aspiring Business Intelligence Analyst
 
 🔗 **LinkedIn:** [Selvi Maharani Pujianti](https://www.linkedin.com/in/selvimaharanip/)  
 📧 **Email:** [selvimaharanip@gmail.com](mailto:selvimaharanip@gmail.com)  
-🌐 **Notion Portfolio:** https://www.notion.so/Selvi-Maharani-Pujianti-s-Portfolio-2e0d3075cbb1805bb44bfa753c1dd970  
