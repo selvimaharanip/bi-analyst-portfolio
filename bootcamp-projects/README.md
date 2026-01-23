@@ -29,11 +29,25 @@ Associated CSV outputs are stored as analytical datasets for transparency and re
 
 ## Data Notes
 
-- **Shared Dataset:** Data Cleaning, EDA, and Customer Segmentation are based on the same analytical dataset to ensure a consistent end-to-end workflow.
-- **A/B Testing:** Conducted using a separate experimental dataset.
-- **SQL Lineage:** SQL analysis is performed directly on the source database; query logic and derived outputs are included in this repository.
-- **Business Analysis & Dashboarding:** Derived from the same operational data source as SQL analysis, structured into Excel datasets for Power BI reporting.
-- **Raw Data Availability:** Due to dataset size limitations, only cleaned sample datasets are included in this repository. The full raw datasets and complete cleaning processes were executed in the original analysis environment.
+- **Operational Dataset (Shared):**  
+  Power BI Dashboarding and the operational Business Analysis are based on `delivery_performance_operational_dataset.xlsx`, which is derived from the same source database as the SQL Analysis to ensure a consistent end-to-end operational workflow.
+
+- **Strategic Dataset:**  
+  The Business Case & Decision-Making Strategy analysis uses a separate dataset, `delivery_performance_strategic_dataset.xlsx`, built from a different database and structured specifically for strategic and executive-level analysis.
+
+- **A/B Testing:**  
+  Conducted using a separate experimental dataset.
+
+- **SQL Lineage:**  
+  SQL analysis is performed directly on the operational source database; query logic and derived outputs are included in this repository.
+
+- **Business Analysis & Dashboarding:**  
+  Business Analysis consists of two distinct analyses using two different datasets:  
+  (1) an operational analysis aligned with SQL and Power BI, and  
+  (2) a strategic analysis using a separate dataset for decision modeling.
+
+- **Raw Data Availability:**  
+  Due to dataset size limitations, only cleaned sample datasets are included in this repository. The full raw datasets and complete cleaning processes were executed in the original analysis environment.
 
 ---
 
