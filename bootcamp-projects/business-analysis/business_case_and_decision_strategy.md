@@ -1,12 +1,13 @@
-# Business Case & Decision-Making Strategy
+# Business Case & Decision-Making Strategy  
+**Shipper Imbalance & Delivery Performance Analysis**
 
 ## Overview
 
 **Objective**  
-Support executive decision-making by evaluating operational performance, late delivery risks, and improvement scenarios, and by defining a phased implementation strategy to improve customer experience and long-term performance.
+Support executive decision-making by evaluating shipper allocation imbalance, delivery performance risks, and improvement scenarios, and by defining a data-driven strategy to optimize logistics cost, service level, and operational efficiency.
 
 **Context**  
-Using the same operational data source, this analysis shifts focus from process diagnosis to strategic decision-making. Power BI dashboards built from Excel-based analytical datasets are used to assess risk, evaluate scenarios, and define measurable success criteria.
+Using operational shipment data across multiple product categories and destination countries, this analysis focuses on identifying structural inefficiencies in shipper routing. Power BI dashboards built from Excel-based datasets are used to assess performance gaps, risk concentration, and business impact.
 
 ---
 
@@ -15,40 +16,46 @@ Using the same operational data source, this analysis shifts focus from process 
 - **Tools:** Power BI, Excel  
 - **Methods & Frameworks:**  
   - KPI Definition & Monitoring  
-  - Scenario Modeling & Risk Assessment  
-  - Multi-Framework Analysis (SWOT, PESTEL)  
-  - Decision & Implementation Planning
+  - Comparative Performance Analysis  
+  - Root Cause Analysis (5 Whys)  
+  - IMPACT Framework (Identify–Measure–Prioritize–Analyze–Create–Track)
 
 ---
 
 ## Key Insights
 
-- Actual late delivery rates significantly exceed SLA-based thresholds, creating a gap between operational targets and customer experience.
-- Delivery delays are highly concentrated in high-risk segments such as peak hours, high traffic conditions, and restaurants with long preparation times.
-- External factors amplify delays, but internal controls (ETA accuracy, dispatch, prep time management) are the primary leverage points for improvement.
+- Shipper usage is highly imbalanced, with **United Package handling 41.65% of total orders** despite having the **highest freight cost, longest ship time, and highest late rate**.
+- Late shipments are geographically concentrated in specific countries (e.g. Ireland, Italy, France), indicating **routing risks not being country-aware**.
+- Performance issues are systemic, driven by **default routing rules without SLA, cost, or performance-based logic**.
 
 ---
 
 ## Decision Strategy
 
 Recommended actions are structured into phases:
-- **Short-term:** ETA recalibration and courier pre-positioning for high-risk segments  
-- **Mid-term:** Dynamic dispatch, routing optimization, and prep-time control  
-- **Long-term:** Predictive demand planning and continuous ETA learning loops  
+
+- **Short-term:**  
+  Shipper load balancing (max share threshold), performance monitoring via dashboard.
+
+- **Mid-term:**  
+  SLA & cost-based routing, shipper performance scoring system.
+
+- **Long-term:**  
+  Vendor renegotiation, country-based routing logic, predictive performance modeling.
 
 ---
 
 ## Monitoring & Success Metrics
 
-- Late Delivery % (Actual)  
-- Average Delivery Delay  
-- Customer Rating  
-- SLA Breach Rate  
+- Shipper Share (%)  
+- Late Shipment Rate (%)  
+- Average Ship Time (days)  
+- Average Freight Cost per Order  
 
-KPIs are monitored weekly to ensure continuous feedback and adjustment.
+KPIs are monitored periodically to ensure balanced allocation, improved SLA compliance, and sustainable logistics performance.
 
 ---
 
 ## Key Takeaway
 
-This analysis demonstrates how operational data can be translated into a structured business case, enabling data-driven decisions, risk-aware planning, and measurable performance improvement.
+This case demonstrates how operational logistics data can be transformed into a structured business case, enabling performance-driven routing decisions, cost optimization, and risk-aware supply chain strategy.
