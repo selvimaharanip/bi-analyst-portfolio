@@ -1,13 +1,13 @@
 # Business Case & Decision-Making Strategy  
-**Shipper Imbalance & Delivery Performance Analysis**
+**Delivery Risk & Late Delivery Performance Analysis**
 
 ## Overview
 
 **Objective**  
-Support executive decision-making by evaluating shipper allocation imbalance, delivery performance risks, and improvement scenarios, and by defining a data-driven strategy to optimize logistics cost, service level, and operational efficiency.
+Support executive decision-making by evaluating real delivery performance, identifying structural late delivery risks, and defining improvement scenarios to enhance customer experience and long-term operational performance.
 
 **Context**  
-Using operational shipment data across multiple product categories and destination countries, this analysis focuses on identifying structural inefficiencies in shipper routing. Power BI dashboards built from Excel-based datasets are used to assess performance gaps, risk concentration, and business impact.
+Using operational delivery data (5,000 orders, Aug 2024 – Aug 2025), this analysis shifts focus from SLA compliance to actual customer experience. Power BI dashboards built from Excel-based analytical datasets are used to assess delivery risk, segment performance, and define actionable strategies.
 
 ---
 
@@ -15,18 +15,20 @@ Using operational shipment data across multiple product categories and destinati
 
 - **Tools:** Power BI, Excel  
 - **Methods & Frameworks:**  
+  - Exploratory & Diagnostic Analysis  
   - KPI Definition & Monitoring  
-  - Comparative Performance Analysis  
-  - Root Cause Analysis (5 Whys)  
-  - IMPACT Framework (Identify–Measure–Prioritize–Analyze–Create–Track)
+  - Scenario Modeling & Risk Assessment  
+  - Multi-Framework Analysis (SWOT, PESTEL)  
+  - Decision & Implementation Planning  
 
 ---
 
 ## Key Insights
 
-- Shipper usage is highly imbalanced, with **United Package handling 41.65% of total orders** despite having the **highest freight cost, longest ship time, and highest late rate**.
-- Late shipments are geographically concentrated in specific countries (e.g. Ireland, Italy, France), indicating **routing risks not being country-aware**.
-- Performance issues are systemic, driven by **default routing rules without SLA, cost, or performance-based logic**.
+- Actual late delivery rate (63.66%) significantly exceeds SLA-based late rate (32%), indicating a major gap between operational targets and real customer experience.  
+- Delivery delays are highly concentrated in high-risk segments such as peak hours (breakfast & dinner), high/severe traffic conditions, and restaurants with long preparation times.  
+- Customer impact is non-linear: delays above 20 minutes cause a sharp drop in ratings, making extreme delays the main driver of dissatisfaction.  
+- External factors amplify risk, but internal controls (ETA accuracy, dispatch logic, prep time management) are the primary leverage points for improvement.
 
 ---
 
@@ -34,28 +36,23 @@ Using operational shipment data across multiple product categories and destinati
 
 Recommended actions are structured into phases:
 
-- **Short-term:**  
-  Shipper load balancing (max share threshold), performance monitoring via dashboard.
-
-- **Mid-term:**  
-  SLA & cost-based routing, shipper performance scoring system.
-
-- **Long-term:**  
-  Vendor renegotiation, country-based routing logic, predictive performance modeling.
+- **Short-term:** ETA recalibration and courier pre-positioning for high-risk segments  
+- **Mid-term:** Dynamic dispatch, routing optimization, and prep-time monitoring  
+- **Long-term:** Predictive demand planning and continuous ETA learning loops  
 
 ---
 
 ## Monitoring & Success Metrics
 
-- Shipper Share (%)  
-- Late Shipment Rate (%)  
-- Average Ship Time (days)  
-- Average Freight Cost per Order  
+- Late Delivery % (Actual)  
+- Average Delivery Delay  
+- Customer Rating  
+- SLA Breach Rate  
 
-KPIs are monitored periodically to ensure balanced allocation, improved SLA compliance, and sustainable logistics performance.
+KPIs are monitored weekly to ensure continuous feedback and adaptive decision-making.
 
 ---
 
 ## Key Takeaway
 
-This case demonstrates how operational logistics data can be transformed into a structured business case, enabling performance-driven routing decisions, cost optimization, and risk-aware supply chain strategy.
+This analysis demonstrates how operational delivery data can be translated into a structured business case. Rather than optimizing SLA metrics in isolation, the focus shifts to actual customer experience and systemic delivery risk, enabling data-driven, risk-aware, and measurable performance improvement.
