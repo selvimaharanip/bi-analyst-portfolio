@@ -13,7 +13,7 @@ This dashboard integrates sales and logistics perspectives to illustrate how com
 ## Data & Tools
 
 - **Data Source:**  
-  `bi_reporting_analysis_dataset.xlsx` (derived from SQL query outputs)
+  `delivery_performance_operational_dataset.xlsx` (derived from SQL query outputs)
   The Excel datasets in the `data/` folder were generated from SQL query results and structured for analytical and visualization purposes.
   These files serve as inputs for Power BI dashboards and business analysis, ensuring transparency and reproducibility of insights.
 
