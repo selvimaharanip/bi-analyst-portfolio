@@ -1,85 +1,155 @@
-# Credit Utilization & Customer Usage Analysis   
+# Credit Utilization & Customer Usage Analysis
 
-![Dashboard Preview](credit_utilization_dashboard_preview.jpg)
+## Overview
 
-> *Figure 1. Credit Utilization & Customer Usage Dashboard Overview*
+This folder contains a credit portfolio analysis focused on utilization efficiency, capital productivity, and revenue optimization strategy.
 
----
+The analysis evaluates whether portfolio growth is constrained by credit limits or by customer spending behavior. Rather than focusing solely on total spend, the project examines utilization depth, segment imbalance, and revenue concentration risk.
 
-## Overview  
-
-### Objective  
-Support strategic portfolio decision-making by evaluating credit utilization efficiency, identifying structural underutilization patterns, and defining activation strategies to enhance capital productivity and sustainable revenue growth.
+All analytical datasets were extracted using SQL, transformed for analysis, and visualized in Power BI.
 
 ---
 
-## Context  
+## Analysis Scope
 
-Using portfolio data from **5,000 active customers**, this analysis shifts focus from total spend metrics to **credit utilization efficiency and monetization depth**.  
+### 1. Portfolio Diagnostic & Utilization Efficiency  
+File: portfolio_utilization_insight.md  
 
-Although aggregate indicators (86.38M total spend, 127.86 avg transactions) appear strong, average utilization remains at **22.87%**, signaling substantial unused credit capacity.
+This analysis focuses on identifying structural underutilization patterns within a 5,000-customer portfolio.
 
-Power BI dashboards built from structured analytical datasets are used to assess utilization behavior, segment imbalance, and revenue concentration risk.
+Key areas covered:
+- Credit utilization performance
+- Spend vs credit limit relationship
+- Usage segment distribution (Low / Moderate / High)
+- Engagement duration vs utilization
+- Revenue concentration risk
 
----
-
-## Tools & Approach  
-
-**Tools:**  
-- Power BI  
-- Excel (data preparation & transformation)
-
-**Methods & Frameworks:**  
-- Exploratory Portfolio Analysis  
-- KPI Definition & Utilization Monitoring  
-- Segment Classification (Low / Moderate / High Usage)  
-- Spend vs Credit Limit Correlation Analysis  
-- Revenue Concentration Assessment  
-- Capital Productivity Framework  
+The objective is to uncover hidden capital inefficiencies masked by strong top-line metrics.
 
 ---
 
-## Key Insights  
+### 2. Business Case & Monetization Strategy  
+File: portfolio_monetization_strategy.md  
 
-- Average credit utilization is **22.87%**, indicating underutilized portfolio capacity.  
-- Majority of customers fall into the **Low Usage** segment, creating structural monetization imbalance.  
-- Spending does not scale proportionally with assigned credit limits — limit expansion alone will not drive sustainable growth.  
-- Long-tenured customers still exhibit low utilization, showing that retention ≠ monetization depth.  
-- Revenue dependency risk exists due to concentration within a small High Usage segment.
+This section translates analytical findings into strategic decision-making.
 
----
+Focus areas:
+- Behavioral activation strategy
+- Utilization-based incentive framework
+- Limit reallocation & exposure balancing
+- KPI realignment (Total Spend → Utilization Efficiency)
 
-## Decision Strategy  
-
-### Behavioral Activation  
-- Utilization-based incentives (threshold-triggered rewards)  
-- Targeted migration from Low → Moderate Usage  
-
-### Portfolio Optimization  
-- Identify dormant high-limit customers  
-- Rebalance exposure based on utilization performance  
-
-### KPI Realignment  
-Shift monitoring from:  
-Total Spend → Utilization Efficiency & Capital Productivity  
+The goal is to shift growth strategy toward capital productivity optimization rather than credit expansion.
 
 ---
 
-## Monitoring & Success Metrics  
+## Data Pipeline & Workflow
 
-- Average Credit Utilization %  
-- Segment Distribution Trend  
-- Revenue Contribution per Segment  
-- Spend-to-Limit Ratio  
-- Customer Lifetime Value (future integration)  
+This project follows an end-to-end analytical workflow:
 
-KPIs should be monitored periodically to track behavioral uplift and portfolio efficiency improvements.
+1. **Exploratory Data Analysis (EDA)**  
+2. **Data Cleaning & Transformation (Google Colab – Python)**  
+3. **Data Structuring & Aggregation for SQL Modeling**  
+4. **SQL Query Extraction**  
+5. **Dashboard Modeling in Power BI**
+
+### Google Colab (EDA & Preprocessing)
+
+A dedicated notebook is included in this folder containing:
+
+- Data profiling  
+- Missing value handling  
+- Feature engineering  
+- Date transformation  
+- Aggregation logic  
+- Utilization metric calculation  
+- Customer-level summarization  
+- Dataset preparation for SQL ingestion  
+
+This notebook documents the full preprocessing pipeline before the dataset was structured for analytical querying.
 
 ---
 
-## Key Takeaway  
+## Data & Tools
 
-This analysis demonstrates how credit portfolio data can be translated into a structured monetization strategy.  
+### Data Source
 
-Rather than focusing solely on revenue volume or credit expansion, the framework highlights the importance of **capital efficiency, behavioral activation, and portfolio balance**, enabling data-driven and sustainable revenue optimization.
+Transactional credit portfolio dataset extracted via SQL.
+
+⚠️ Due to file size limitations, raw and cleaned datasets are not uploaded to this repository.
+
+However, dataset structure is documented below for transparency and reproducibility.
+
+---
+
+## Dataset Information
+
 ```
+RangeIndex: 641,914 entries
+Total Columns: 23
+```
+
+### Core Variables
+
+- accountNumber (int64)
+- customerId (int64)
+- creditLimit (int64)
+- availableMoney (float64)
+- transactionDateTime (object)
+- transactionAmount (float64)
+- merchantName (object)
+- merchantCategoryCode (object)
+- transactionType (object)
+- currentBalance (float64)
+- isFraud (bool)
+- cardPresent (bool)
+- expirationDateKeyInMatch (bool)
+- accountOpenDate (object)
+- dateOfLastAddressChange (object)
+
+Data types:
+- int64 (6 columns)
+- float64 (5 columns)
+- object (9 columns)
+- bool (3 columns)
+
+---
+
+## Tools Used
+
+- Python (Google Colab – EDA & data cleaning)
+- SQL (data extraction & transformation)
+- Excel (intermediate analytical dataset preparation)
+- Power BI (dashboard modeling & visualization)
+
+---
+
+## Repository Structure
+
+This folder contains:
+
+- Portfolio insight documentation
+- Business case & decision strategy file
+- This README file
+- Google Colab notebook (EDA & preprocessing)
+- SQL syntax file
+- Power BI (.pbix) dashboard file
+
+Together, these materials demonstrate a complete analytical lifecycle:
+
+Raw data → EDA → Cleaning → Transformation → SQL modeling → Dashboard → Strategic recommendation.
+
+---
+
+## Key Takeaway
+
+This project demonstrates how credit portfolio data can be transformed into a structured monetization strategy.
+
+Rather than focusing solely on revenue volume or credit expansion, the analysis highlights the importance of:
+
+- Utilization efficiency  
+- Behavioral activation  
+- Capital productivity  
+- Portfolio balance  
+
+The framework supports risk-aware, data-driven, and sustainable revenue optimization.
