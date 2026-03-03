@@ -8,7 +8,7 @@ I am an aspiring **Business Intelligence Analyst** with a background in **resear
 By expanding my skill set into **data analytics and business intelligence**—including **SQL, Python, and Power BI**—I combine investigative rigor with structured data analysis and visual storytelling to support **business, operational, and risk-aware decision-making**.
 
 📄 **CV (PDF):**  
-https://drive.google.com/file/d/1734-5XJsazyoEcs_XwZ7r2XSjenD7Aeg/view
+https://drive.google.com/drive/folders/1C4TaoFmq7sRmhBqO_Y6xlFwtBP1vr9R9?usp=sharing
 
 ---
 
@@ -88,7 +88,7 @@ Additional **independent projects, real-world case studies, and advanced BI anal
 ## Contact
 
 **Selvi Maharani Pujianti**  
-Aspiring Business Intelligence Analyst  
+Data & Due Diligence Analyst  
 
 🔗 **LinkedIn:** [Selvi Maharani Pujianti](https://www.linkedin.com/in/selvimaharanip/)  
 📧 **Email:** [selvimaharanip@gmail.com](mailto:selvimaharanip@gmail.com)  
