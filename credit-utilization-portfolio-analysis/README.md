@@ -2,27 +2,27 @@
 
 ## Overview
 
-This repository contains a credit portfolio analysis focused on utilization efficiency, capital productivity, and revenue optimization strategy.
+This repository presents a credit portfolio analysis focused on utilization efficiency, capital productivity, and revenue optimization strategy.
 
-The analysis evaluates whether portfolio growth is constrained by credit limits or by customer spending behavior. Rather than focusing solely on total spend, the project examines utilization depth, segment imbalance, and revenue concentration risk.
+The analysis evaluates whether portfolio growth is constrained by credit limit allocation or by customer spending behavior. Instead of focusing solely on total spend, this project examines utilization depth, segment imbalance, and revenue concentration risk to uncover structural monetization gaps.
 
-All analytical datasets were extracted using SQL, transformed for analysis, and visualized in Power BI.
+All analytical datasets were extracted using SQL, transformed and validated in Python (Google Colab), and visualized through an interactive Power BI dashboard.
 
 ---
 
 ## Analysis Focus
 
-This analysis identifies structural underutilization patterns within a 5,000-customer portfolio.
+This analysis identifies structural underutilization patterns within a 5,000-customer credit portfolio.
 
 Key areas covered:
 
 - Credit utilization performance  
-- Spend vs credit limit relationship  
+- Spend vs. credit limit relationship  
 - Usage segment distribution (Low / Moderate / High)  
-- Engagement duration vs utilization  
+- Engagement duration vs. utilization  
 - Revenue concentration risk  
 
-The objective is to uncover hidden capital inefficiencies masked by strong top-line metrics.
+The objective is to detect hidden capital inefficiencies that may be masked by strong aggregate performance metrics.
 
 ---
 
@@ -31,27 +31,29 @@ The objective is to uncover hidden capital inefficiencies masked by strong top-l
 This project follows an end-to-end analytical workflow:
 
 1. Exploratory Data Analysis (EDA)  
-2. Data Cleaning & Transformation (Google Colab – Python)  
+2. Data Cleaning & Transformation (Python – Google Colab)  
 3. Data Structuring & Aggregation for SQL Modeling  
-4. SQL Query Extraction  
-5. Dashboard Modeling in Power BI  
+4. SQL-Based Query Development  
+5. Dashboard Modeling & Visualization in Power BI  
+
+This structure ensures analytical integrity from raw transactional data through strategic insight generation.
 
 ---
 
 ## Google Colab (EDA & Preprocessing)
 
-The notebook included in this repository documents:
+The included notebook documents the complete preprocessing and analytical preparation process, including:
 
-- Data profiling  
+- Data profiling and validation  
 - Missing value handling  
+- Data type correction and formatting  
 - Feature engineering  
-- Date transformation  
-- Aggregation logic  
 - Utilization metric calculation  
+- Monthly aggregation logic  
 - Customer-level summarization  
 - Dataset preparation for SQL ingestion  
 
-This notebook demonstrates the full preprocessing pipeline before the dataset was structured for analytical querying.
+This notebook demonstrates the transformation of raw transactional data into a structured analytical dataset suitable for portfolio diagnostics and dashboard modeling.
 
 ---
 
@@ -63,15 +65,15 @@ Transactional credit portfolio dataset extracted via SQL.
 
 ⚠️ Due to file size limitations, raw and cleaned datasets are not uploaded to this repository.
 
-However, dataset structure is documented below for transparency and reproducibility.
+However, the dataset structure is documented below for transparency and reproducibility.
 
 ---
 
 ## Dataset Information
 
 ```
-RangeIndex: 641,914 entries
-Total Columns: 23
+RangeIndex: 641,914 entries  
+Total Columns: 23  
 ```
 
 ### Core Variables
@@ -92,7 +94,7 @@ Total Columns: 23
 - accountOpenDate (object)  
 - dateOfLastAddressChange (object)  
 
-Data types:
+Data types include:
 - int64 (6 columns)  
 - float64 (5 columns)  
 - object (9 columns)  
@@ -104,7 +106,7 @@ Data types:
 
 - Python (Google Colab – EDA & data cleaning)  
 - SQL (data extraction & transformation)  
-- Excel (intermediate analytical dataset preparation)  
+- Excel (intermediate analytical preparation)  
 - Power BI (dashboard modeling & visualization)  
 
 ---
@@ -122,19 +124,19 @@ This repository includes:
 
 Together, these materials demonstrate a complete analytical lifecycle:
 
-Raw data → EDA → Cleaning → Transformation → SQL modeling → Dashboard → Strategic recommendation.
+Raw data → EDA → Cleaning → Transformation → SQL modeling → Dashboard → Strategic recommendation
 
 ---
 
 ## Key Takeaway
 
-This project demonstrates how credit portfolio data can be transformed into a structured monetization strategy.
+This project illustrates how credit portfolio data can be transformed into a structured monetization strategy.
 
-Rather than focusing solely on revenue volume or credit expansion, the analysis highlights the importance of:
+Rather than focusing solely on revenue volume or credit expansion, the analysis emphasizes:
 
 - Utilization efficiency  
 - Behavioral activation  
 - Capital productivity  
 - Portfolio balance  
 
-The framework supports risk-aware, data-driven, and sustainable revenue optimization.
+The framework supports risk-aware, data-driven, and sustainable revenue optimization aligned with strategic portfolio management.
