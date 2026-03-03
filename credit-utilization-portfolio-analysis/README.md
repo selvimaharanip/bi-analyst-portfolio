@@ -2,7 +2,7 @@
 
 ## Overview
 
-This folder contains a credit portfolio analysis focused on utilization efficiency, capital productivity, and revenue optimization strategy.
+This repository contains a credit portfolio analysis focused on utilization efficiency, capital productivity, and revenue optimization strategy.
 
 The analysis evaluates whether portfolio growth is constrained by credit limits or by customer spending behavior. Rather than focusing solely on total spend, the project examines utilization depth, segment imbalance, and revenue concentration risk.
 
@@ -10,36 +10,19 @@ All analytical datasets were extracted using SQL, transformed for analysis, and 
 
 ---
 
-## Analysis Scope
+## Analysis Focus
 
-### 1. Portfolio Diagnostic & Utilization Efficiency  
-File: portfolio_utilization_insight.md  
-
-This analysis focuses on identifying structural underutilization patterns within a 5,000-customer portfolio.
+This analysis identifies structural underutilization patterns within a 5,000-customer portfolio.
 
 Key areas covered:
-- Credit utilization performance
-- Spend vs credit limit relationship
-- Usage segment distribution (Low / Moderate / High)
-- Engagement duration vs utilization
-- Revenue concentration risk
+
+- Credit utilization performance  
+- Spend vs credit limit relationship  
+- Usage segment distribution (Low / Moderate / High)  
+- Engagement duration vs utilization  
+- Revenue concentration risk  
 
 The objective is to uncover hidden capital inefficiencies masked by strong top-line metrics.
-
----
-
-### 2. Business Case & Monetization Strategy  
-File: portfolio_monetization_strategy.md  
-
-This section translates analytical findings into strategic decision-making.
-
-Focus areas:
-- Behavioral activation strategy
-- Utilization-based incentive framework
-- Limit reallocation & exposure balancing
-- KPI realignment (Total Spend → Utilization Efficiency)
-
-The goal is to shift growth strategy toward capital productivity optimization rather than credit expansion.
 
 ---
 
@@ -47,15 +30,17 @@ The goal is to shift growth strategy toward capital productivity optimization ra
 
 This project follows an end-to-end analytical workflow:
 
-1. **Exploratory Data Analysis (EDA)**  
-2. **Data Cleaning & Transformation (Google Colab – Python)**  
-3. **Data Structuring & Aggregation for SQL Modeling**  
-4. **SQL Query Extraction**  
-5. **Dashboard Modeling in Power BI**
+1. Exploratory Data Analysis (EDA)  
+2. Data Cleaning & Transformation (Google Colab – Python)  
+3. Data Structuring & Aggregation for SQL Modeling  
+4. SQL Query Extraction  
+5. Dashboard Modeling in Power BI  
 
-### Google Colab (EDA & Preprocessing)
+---
 
-A dedicated notebook is included in this folder containing:
+## Google Colab (EDA & Preprocessing)
+
+The notebook included in this repository documents:
 
 - Data profiling  
 - Missing value handling  
@@ -66,7 +51,7 @@ A dedicated notebook is included in this folder containing:
 - Customer-level summarization  
 - Dataset preparation for SQL ingestion  
 
-This notebook documents the full preprocessing pipeline before the dataset was structured for analytical querying.
+This notebook demonstrates the full preprocessing pipeline before the dataset was structured for analytical querying.
 
 ---
 
@@ -91,49 +76,49 @@ Total Columns: 23
 
 ### Core Variables
 
-- accountNumber (int64)
-- customerId (int64)
-- creditLimit (int64)
-- availableMoney (float64)
-- transactionDateTime (object)
-- transactionAmount (float64)
-- merchantName (object)
-- merchantCategoryCode (object)
-- transactionType (object)
-- currentBalance (float64)
-- isFraud (bool)
-- cardPresent (bool)
-- expirationDateKeyInMatch (bool)
-- accountOpenDate (object)
-- dateOfLastAddressChange (object)
+- accountNumber (int64)  
+- customerId (int64)  
+- creditLimit (int64)  
+- availableMoney (float64)  
+- transactionDateTime (object)  
+- transactionAmount (float64)  
+- merchantName (object)  
+- merchantCategoryCode (object)  
+- transactionType (object)  
+- currentBalance (float64)  
+- isFraud (bool)  
+- cardPresent (bool)  
+- expirationDateKeyInMatch (bool)  
+- accountOpenDate (object)  
+- dateOfLastAddressChange (object)  
 
 Data types:
-- int64 (6 columns)
-- float64 (5 columns)
-- object (9 columns)
-- bool (3 columns)
+- int64 (6 columns)  
+- float64 (5 columns)  
+- object (9 columns)  
+- bool (3 columns)  
 
 ---
 
 ## Tools Used
 
-- Python (Google Colab – EDA & data cleaning)
-- SQL (data extraction & transformation)
-- Excel (intermediate analytical dataset preparation)
-- Power BI (dashboard modeling & visualization)
+- Python (Google Colab – EDA & data cleaning)  
+- SQL (data extraction & transformation)  
+- Excel (intermediate analytical dataset preparation)  
+- Power BI (dashboard modeling & visualization)  
 
 ---
 
-## Repository Structure
+## Repository Contents
 
-This folder contains:
+This repository includes:
 
-- Portfolio insight documentation
-- Business case & decision strategy file
-- This README file
-- Google Colab notebook (EDA & preprocessing)
-- SQL syntax file
-- Power BI (.pbix) dashboard file
+- Analytical insight documentation  
+- This README file  
+- Google Colab notebook (EDA & preprocessing)  
+- SQL query file  
+- Power BI (.pbix) dashboard file  
+- Dashboard preview image  
 
 Together, these materials demonstrate a complete analytical lifecycle:
 
