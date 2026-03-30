@@ -7,9 +7,6 @@ I am an aspiring **Business Intelligence Analyst** with a background in **resear
 
 By expanding my skill set into **data analytics and business intelligence**—including **SQL, Python, and Power BI**—I combine investigative rigor with structured data analysis and visual storytelling to support **business, operational, and risk-aware decision-making**.
 
-📄 **CV (PDF):**  
-https://drive.google.com/drive/folders/1C4TaoFmq7sRmhBqO_Y6xlFwtBP1vr9R9?usp=sharing
-
 ---
 
 ## Portfolio Focus
@@ -38,7 +35,7 @@ The projects demonstrate practical BI workflows, including:
 
 ---
 
-## Featured Project — Credit Utilization & Customer Usage Analysis
+## Credit Utilization & Customer Usage Analysis Project
 
 ### Overview
 
@@ -75,6 +72,68 @@ Key takeaway:
 - Capital productivity should be prioritized over credit expansion  
 
 This project highlights my ability to move beyond surface-level KPIs and translate structured data analysis into **business-oriented portfolio strategy**.
+
+---
+
+## Student Development Monitoring Dashboard Project
+
+### Overview
+
+This project presents a **student monitoring and risk identification analysis** designed to support data-driven decision-making in education programs (NGO / scholarship / child development context).
+
+Rather than focusing solely on academic scores, the analysis evaluates **performance distribution, academic progress trends, and risk indicators** to identify students who require targeted intervention.
+
+The objective is to demonstrate how structured data analysis can be used to support **program monitoring, beneficiary tracking, and early intervention strategies**.
+
+### Key Areas Analyzed
+
+- Academic performance distribution  
+- Student risk segmentation (At Risk vs Normal)  
+- Academic progress (Improved / Stable / Declined)  
+- Study behavior and engagement patterns  
+- Attendance (absences) analysis  
+- Academic failure impact  
+- Socio-economic influence (parent education)  
+
+### End-to-End Workflow
+
+This project demonstrates a complete analytical workflow:
+
+- Data Cleaning & Exploratory Analysis (Python – Google Colab)  
+- Feature Engineering (Risk Flag, Performance Category, Progress Tracking)  
+- Dataset Structuring for monitoring use  
+- Excel Dashboard Development  
+- Insight generation & program recommendation  
+
+### Program Insight
+
+The analysis highlights that academic challenges are not driven by attendance alone, but by a combination of:
+
+- high proportion of at-risk students  
+- declining academic progress trends  
+- moderate but not optimal study engagement  
+
+Key takeaway:
+
+- Academic risk requires early detection and targeted intervention  
+- Monitoring systems should focus on progress trends, not only final outcomes  
+- Behavioral and learning effectiveness factors are critical beyond attendance  
+
+### Data Source
+
+Student Performance Dataset:  
+https://www.kaggle.com/datasets/devansodariya/student-performance-data  
+
+### Relevance
+
+This project demonstrates my ability to apply data analytics in a **program and social impact context**, including:
+
+- Monitoring & Evaluation (M&E) thinking  
+- Risk identification and segmentation  
+- Translating data into actionable program strategies  
+- Supporting evidence-based decision making  
+
+This complements my BI skill set by extending analysis beyond business metrics into **impact-oriented and program-focused analytics**.
 
 ---
 
