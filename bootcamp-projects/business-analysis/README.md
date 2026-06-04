@@ -50,7 +50,7 @@ The objective is to support executive-level decision-making using KPI-driven, ri
 
 Insights were supported by **Power BI dashboards and presentation slides** built from Excel-based analytical outputs.
 
-- 📊 [**Power BI Dashboards & Presentation:**](https://drive.google.com/drive/folders/1NJxlE3m1xmcleH1Fgghet93UJIjeQuWq?usp=sharing)
+- 📊 [**Power BI Dashboards & Presentation:**](https://drive.google.com/drive/folders/1_6KoL58dy0r-z2dZmEAueFj6ixCrlORc?usp=sharing)
 
 ---
 
