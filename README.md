@@ -39,39 +39,47 @@ The projects demonstrate practical BI workflows, including:
 
 ### Overview
 
-This project presents a **credit portfolio monetization analysis** focused on utilization efficiency, capital productivity, and revenue optimization strategy.
+This project presents a credit portfolio monetization analysis focused on utilization efficiency, capital productivity, and revenue optimization strategy.
 
-Rather than focusing solely on total spend, the analysis evaluates whether portfolio growth is constrained by credit limit allocation or by customer spending behavior. The objective is to identify structural underutilization patterns and hidden monetization gaps.
+Rather than focusing solely on total spend, the analysis evaluates whether portfolio growth is constrained by credit limit allocation or by customer spending behavior. The objective is to identify structural underutilization patterns, segment imbalance, and hidden monetization gaps.
+
+---
 
 ### Key Areas Analyzed
 
-- Credit utilization performance  
-- Spend vs. credit limit relationship  
-- Usage segment distribution (Low / Moderate / High)  
-- Engagement duration vs. utilization  
-- Revenue concentration risk  
+* Credit utilization performance
+* Spend vs. credit limit relationship
+* Usage segment distribution (Low / Moderate / High)
+* Customer engagement duration
+* Capital productivity assessment
+
+---
 
 ### End-to-End Workflow
 
 This project demonstrates a complete BI lifecycle:
 
-1. Exploratory Data Analysis (Python – Google Colab)  
-2. Data Cleaning & Transformation  
-3. Feature Engineering (Utilization Ratio & Monthly Aggregation)  
-4. SQL Data Structuring & Query Development  
-5. Power BI Dashboard Modeling  
-6. Strategic Monetization Recommendation  
+* Exploratory Data Analysis (Python – Google Colab)
+* Data Cleaning & Transformation
+* Feature Engineering (Utilization Ratio & Monthly Aggregation)
+* SQL Data Structuring & Query Development
+* Power BI Dashboard Modeling
+* Strategic Monetization Recommendation
+
+---
 
 ### Business Insight
 
-The analysis shows that portfolio growth is not primarily constrained by credit availability, but by **behavioral underutilization and segment imbalance**.
+The analysis shows that portfolio growth is not primarily constrained by credit availability, customer volume, or retention, but by low utilization among existing customers despite sufficient available credit capacity.
 
-Key takeaway:
-- Increasing credit limits alone does not guarantee revenue growth  
-- Utilization efficiency and behavioral activation are stronger levers  
-- Capital productivity should be prioritized over credit expansion  
+**Key takeaways:**
 
-This project highlights my ability to move beyond surface-level KPIs and translate structured data analysis into **business-oriented portfolio strategy**.
+* Increasing credit limits alone does not guarantee revenue growth.
+* Utilization efficiency and customer activation are stronger growth levers.
+* Capital productivity should be prioritized over credit expansion.
+* Customer utilization behavior is a more significant constraint than credit availability.
+
+This project highlights my ability to move beyond surface-level KPIs and translate structured data analysis into business-oriented portfolio strategy and actionable recommendations.
 
 ---
 
