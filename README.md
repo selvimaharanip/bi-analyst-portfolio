@@ -43,8 +43,6 @@ This project presents a credit portfolio monetization analysis focused on utiliz
 
 Rather than focusing solely on total spend, the analysis evaluates whether portfolio growth is constrained by credit limit allocation or by customer spending behavior. The objective is to identify structural underutilization patterns, segment imbalance, and hidden monetization gaps.
 
----
-
 ### Key Areas Analyzed
 
 * Credit utilization performance
@@ -52,8 +50,6 @@ Rather than focusing solely on total spend, the analysis evaluates whether portf
 * Usage segment distribution (Low / Moderate / High)
 * Customer engagement duration
 * Capital productivity assessment
-
----
 
 ### End-to-End Workflow
 
@@ -65,8 +61,6 @@ This project demonstrates a complete BI lifecycle:
 * SQL Data Structuring & Query Development
 * Power BI Dashboard Modeling
 * Strategic Monetization Recommendation
-
----
 
 ### Business Insight
 
